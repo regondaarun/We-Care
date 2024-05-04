@@ -1,0 +1,14 @@
+.form-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 360px;
+  background-image: url('../../../assets/login.jpg');
+  background-size: cover;
+}
+
+.card-container {
+  min-width: 50vw;
+  
+}

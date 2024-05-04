@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>dropdown menu using select tab</title>
+</head>
+<script>
+function department() {
+var mylist = document.getElementById("myList");
+document.getElementById("health issue").value = mylist.options[mylist.selectedIndex].text;
+}
+</script>
+<body>
+<h1 style="text-align:center"> WE CARE</h1>
+<h2 style="text-align:center"> Department and Doctor selection page</h2>
+<form>
+<p>
+<b> Select department </b>
+<select id = "myList" onchange = "department()" >
+<option> ---Choose department </option>
+<option> pulmonology </option>
+<option> cardiology </option>
+<option> ENT </option>
+<option> psychology </option>
+</select>
+</p>
+</form>
+<form>
+<p>
+<b> Select doctor </b>
+<select id = "myList" onchange = "doctor()" >
+<option> ---Choose doctor </option>
+<option> DR. A </option>
+<option> DR. B </option>
+<option> DR. C </option>
+<option> DR. D </option>
+</select>
+</p>
+</form>
+</body>
+</html>
